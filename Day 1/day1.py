@@ -4,7 +4,7 @@ from math import floor
 
 
 def day1():
-    file = open("input.txt", "r")
+    file = open("input.txt.txt", "r")
     modules = file.readlines()
     fuel_required = 0
     fuel_for_fuel = 0

@@ -1,5 +1,5 @@
 
-a, b = open("input.txt").read().split("\n")
+a, b = open("input.txt.txt").read().split("\n")
 a, b = [x.split(",") for x in [a, b]]
 
 DX = {'L': -1, 'R': 1, 'U': 0, 'D': 0}
